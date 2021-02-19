@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <title>¿Se ha cargado JQuery?</title>
+    </head>
+    <body>
+        <div><img src=" https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/59bbb29c5bafe878503c9872/husky-siberiano-bosque.jpg" class="selectChar" width="200" alt="red"></div>
+        <div><img src=" https://d2p8jjwwnx090z.cloudfront.net/287/386/093/1280003024-1qmb32h-9h3irtap761eda0/original/washhgatoo.jpg" class="selectChar" width="200" alt="blue"></div>
+        <div><img src="https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/report/5d9722625bafe878be9014d3/tiburon1_0.jpg" class="selectChar" width="200" alt="brown"></div>
+        <p>!Púlsame!</p>
+        <script>
+        $(document).ready(function() {
+            $("p").bind("click", function(){
+                $( "<div>Evento de click</div>").appendTo( "body" );
+            });
+            
+            $("p").bind("dblclick", function(){
+                $( "<div>Evento de doble click</div>"  ).appendTo( "body" );
+            });
+        });    
+        </script>
+        <link rel="estilo" href="Style.css">
+    </body>
+</html>
