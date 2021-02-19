@@ -1,0 +1,32 @@
+.card {
+    width: 30%;
+    height: 300px;
+    margin: 20px;
+    display: inline-block;
+  }
+  
+  .front, .back {
+    border: 2px gray solid;
+    border-radius: 10x;
+    padding: 10px;
+  }
+  .front {
+    background-color: #ccc;
+  }
+  .back {
+    background-color: rgb(207, 240, 186);
+  }
+  .rover, .futbol {
+    width: 400px;
+    max-height: 250px;
+  }
+
+  .other-back {
+    background-color: red;
+    text-align: center;
+  }
+  .front, .back {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
